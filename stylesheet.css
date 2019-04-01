@@ -1,7 +1,18 @@
 #test p {
     font-size: 12px;
 
-    -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 3s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#test2 p {
+    font-size: 12px;
+    
+    -webkit-animation: fadein 3s;
 }
 
 @-webkit-keyframes fadein {
